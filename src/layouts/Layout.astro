@@ -10,33 +10,39 @@ import Projects from "../components/Projects.astro";
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro Basics</title>
+  </head>
+  <body>
+    <Navbar />
 
-		<Navbar/>
+    <Home />
+    <About />
+    <Experience />
+    <Projects />
+    <Contact />
 
-		<Home/>	
-		<About/>
-		<Experience/>
-		<Projects/>
-		<Contact/>
-
-		<Footer/> 	
-
-
-	</body>
+    <Footer />
+  </body>
 </html>
 
 <style>
-	body {
-		background-color: black;
-		font-family: sans-serif;
-	}
+  body {
+    /* background-color: black; */
+    font-family: sans-serif;
+    color: white;
+    font-size: medium;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(1, 1, 10, 1) 45%,
+      rgba(26, 38, 54, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
 </style>
-
