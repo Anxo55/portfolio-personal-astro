@@ -1,5 +1,115 @@
 <section id="experience">
+  <div class="content">
+    <div class="header">
+      <svg
+        class="icon"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 7H5a2 2 0 0 0-2 2v4m5-6h8M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m0 0h3a2 2 0 0 1 2 2v4m0 0v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6m18 0s-4 2-9 2-9-2-9-2m9-2h.01"
+        ></path>
+      </svg>
 
-    
-
+      <h1>Experiencia</h1>
+    </div>
+    <div class="container">
+        <div class="card-1">
+            <h1>Stellantis</h1>
+            <p>Desde finales de Noviembre de 2024 </p>
+            <p>entré en el sector de la automoción,</p> 
+            <p>donde empleo el montaje de las ruedas</p>
+            <p>de ambos lados.</p>
+            <button><a href="https://www.stellantisfinancialservices.es/bienvenido.html" target="_blank">Acerca de</a></button>
+        </div>
+        <div class="card-2">
+            <h1>Bosch</h1>
+            <p>Desde agosto de 2024 hasta mediados</p>
+            <p>de septiembre de 2024 estuve en el sector</p>
+            <p>de energia de orange energia, ofreciendo</p>
+            <p>luz y gas a los clientes de orange.</p>
+            <button><a href="https://www.grupo-bosch.es/nuestra-empresa/bosch-en-espana/vigo/" target="_blank">Acerca de</a></button>
+        </div>
+    </div>
+  </div>
 </section>
+
+<style>
+    section {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    padding-left: 50vh;
+    padding-right: 20vh;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+    /* color: teal; */
+  }
+
+  h1 {
+    color: teal;
+    margin: 0;
+  }
+
+  button {
+    background-color: teal;
+    padding: 8px 15px;
+    border: 3px solid cadetblue;
+    border-radius: 20px;
+    color: black;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: turquoise;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .container a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .card-1 {
+    border: 2px solid teal;
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 30px;
+  }
+
+  .card-2 {
+    border: 2px solid teal;
+    border-radius: 20px;
+    background-color: darkgray;
+    padding: 20px;
+  }
+
+</style>
