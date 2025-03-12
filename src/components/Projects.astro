@@ -1,5 +1,172 @@
 <section id="projects">
+  <div class="header">
+    <svg
+      class="icon"
+      aria-hidden="true"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      viewBox="0 0 24 24"
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"></path>
+    </svg>
 
-    
+    <h1>Proyectos</h1>
+  </div>
 
+  <div class="proyectos">
+    <div class="proyecto1">
+      <div>
+        <h1>Agenda Eventos</h1>
+        <p>Este es el un proyecto con backend y frontend</p>
+        <p>aqui utilice react para el front y nodeJs para el back</p>
+        <p>para crear una página web.</p>
+        <div>
+          <button
+            ><a
+              href="https://agendaeventosfrontend.onrender.com"
+              target="_blank">Pagina</a
+            ></button
+          >
+          <button
+            ><a
+              href="https://agendaeventosfrontend.onrender.com"
+              target="_blank">Código</a
+            ></button
+          >
+        </div>
+      </div>
+      <img src="/Agenda-eventos.JPG" alt="" />
+    </div>
+    <div class="proyecto2">
+      <div>
+        <h1>Calculadora</h1>
+        <p>Este es el segundo proyecto que hice</p>
+        <p>en el que aprendí a usar JavaScript</p>
+        <p>para crear una calculadora.</p>
+        <div>
+          <button
+            ><a href="https://www.google.com" target="_blank">Pagina</a></button
+          >
+          <button
+            ><a href="https://www.google.com" target="_blank">Codigo</a></button
+          >
+        </div>
+      </div>
+      <img src="/Calculadora.JPG" alt="">
+    </div>
+    <div class="proyecto3">
+      <div>
+        <h1>Toca Piano</h1>
+        <p>Este es un proyecto hecho en clase</p>
+        <p>en el comenzamos a aprender JavaScript</p>
+        <p>donde creamos este piano.</p>
+        <div>
+          <button
+            ><a href="https://www.google.com" target="_blank">Pagina</a></button
+          >
+          <button
+            ><a href="https://www.google.com" target="_blank">Codigo</a></button
+          >
+        </div>
+      </div>
+      <img src="/Toca-piano.JPG" alt="">
+    </div>
+    <div class="proyecto4">
+      <div>
+        <h1>Camisetas Deportivas</h1>
+        <p>Este es un proyecto con html y css</p>
+        <p>en el que diseñé una página sin acciones</p>
+        <p>de ventas de camisetas para un chico.</p>
+        <div>
+          <button
+            ><a href="https://www.google.com" target="_blank">Pagina</a></button
+          >
+          <button
+            ><a href="https://www.google.com" target="_blank">Codigo</a></button
+          >
+        </div>
+      </div>
+      <img src="/Camisetas-deportivas.JPG" alt="">
+    </div>
+  </div>
 </section>
+
+<style>
+  section {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    padding-left: 50vh;
+    padding-right: 20vh;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-left: -30px;
+    /* color: teal; */
+  }
+
+  h1 {
+    color: teal;
+    margin: 0;
+  }
+
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .proyectos a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .proyecto1,
+  .proyecto2,
+  .proyecto3,
+  .proyecto4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+  }
+
+  .proyectos img {
+    width: 200px; /* Ajusta según sea necesario */
+    height: auto;
+    align-self: center; /* Alinea la imagen verticalmente */
+  }
+
+  button {
+    background-color: teal;
+    padding: 8px 15px;
+    border: 3px solid cadetblue;
+    border-radius: 20px;
+    color: black;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: turquoise;
+  }
+</style>
